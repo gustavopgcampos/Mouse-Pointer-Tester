@@ -1,0 +1,483 @@
+* {
+    font-family: 'Minecraft', sans-serif;
+}
+
+body {  
+    color: gainsboro;      
+    background: gray;
+}
+
+#title {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+p {
+    text-align: center;
+}
+
+:root {
+    --box-size: 200px;
+    --background-color: slategray;
+    --border-radius: 10px;
+    --margin: 30px;
+}
+
+#default {
+    width: var(--box-size);
+    height: var(--box-size);
+    background-color: var(--background-color);
+    border: 2px solid whitesmoke;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    border-radius: var(--border-radius);
+    margin: var(--margin);
+    cursor: default;
+}
+
+#none {
+    width: var(--box-size);
+    height: var(--box-size);
+    background-color: var(--background-color);
+    border: 2px solid whitesmoke;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    border-radius: var(--border-radius);
+    margin: var(--margin);
+    cursor: none;
+}
+
+#context-menu {
+    width: var(--box-size);
+    height: var(--box-size);
+    background-color: var(--background-color);
+    border: 2px solid whitesmoke;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    border-radius: var(--border-radius);
+    margin: var(--margin);
+    cursor: context-menu;
+}
+
+#help {
+    width: var(--box-size);
+    height: var(--box-size);
+    background-color: var(--background-color);
+    border: 2px solid whitesmoke;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    cursor: help;
+    border-radius: var(--border-radius);
+    margin: var(--margin);
+}
+
+#pointer {
+    width: var(--box-size);
+    height: var(--box-size);
+    background-color: var(--background-color);
+    border: 2px solid whitesmoke;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    cursor: pointer;
+    border-radius: var(--border-radius);
+    margin: var(--margin);
+}
+
+#progress {
+    width: var(--box-size);
+    height: var(--box-size);
+    background-color: var(--background-color);
+    border: 2px solid whitesmoke;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    cursor: progress;
+    border-radius: var(--border-radius);
+    margin: var(--margin);
+}
+
+#wait {
+    width: var(--box-size);
+    height: var(--box-size);
+    background-color: var(--background-color);
+    border: 2px solid whitesmoke;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    cursor: wait;
+    border-radius: var(--border-radius);
+    margin: var(--margin);
+}
+
+#cell {
+    width: var(--box-size);
+    height: var(--box-size);
+    background-color: var(--background-color);
+    border: 2px solid whitesmoke;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    cursor: cell;
+    border-radius: var(--border-radius);
+    margin: var(--margin);
+}
+
+#crosshair {
+    width: var(--box-size);
+    height: var(--box-size);
+    background-color: var(--background-color);
+    border: 2px solid whitesmoke;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    cursor: crosshair;
+    border-radius: var(--border-radius);
+    margin: var(--margin);
+}
+
+#text {
+    width: var(--box-size);
+    height: var(--box-size);
+    background-color: var(--background-color);
+    border: 2px solid whitesmoke;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    cursor: text;
+    border-radius: var(--border-radius);
+    margin: var(--margin);
+}
+
+#vertical-text {
+    width: var(--box-size);
+    height: var(--box-size);
+    background-color: var(--background-color);
+    border: 2px solid whitesmoke;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    cursor: vertical-text;
+    border-radius: var(--border-radius);
+    margin: var(--margin);
+}
+
+#alias {
+    width: var(--box-size);
+    height: var(--box-size);
+    background-color: var(--background-color);
+    border: 2px solid whitesmoke;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    cursor: alias;
+    border-radius: var(--border-radius);
+    margin: var(--margin);
+}
+
+#copy {
+    width: var(--box-size);
+    height: var(--box-size);
+    background-color: var(--background-color);
+    border: 2px solid whitesmoke;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    cursor: copy;
+    border-radius: var(--border-radius);
+    margin: var(--margin);
+}
+
+#move {
+    width: var(--box-size);
+    height: var(--box-size);
+    background-color: var(--background-color);
+    border: 2px solid whitesmoke;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    cursor: move;
+    border-radius: var(--border-radius);
+    margin: var(--margin);
+}
+
+#no-drop {
+    width: var(--box-size);
+    height: var(--box-size);
+    background-color: var(--background-color);
+    border: 2px solid whitesmoke;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    cursor: no-drop;
+    border-radius: var(--border-radius);
+    margin: var(--margin);
+}
+
+#not-allowed {
+    width: var(--box-size);
+    height: var(--box-size);
+    background-color: var(--background-color);
+    border: 2px solid whitesmoke;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    cursor: not-allowed;
+    border-radius: var(--border-radius);
+    margin: var(--margin);
+}
+
+#all-scroll	{
+    width: var(--box-size);
+    height: var(--box-size);
+    background-color: var(--background-color);
+    border: 2px solid whitesmoke;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    cursor: all-scroll;
+    border-radius: var(--border-radius);
+    margin: var(--margin);
+}
+
+#col-resize {
+    width: var(--box-size);
+    height: var(--box-size);
+    background-color: var(--background-color);
+    border: 2px solid whitesmoke;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    cursor: col-resize;
+    border-radius: var(--border-radius);
+    margin: var(--margin);
+}
+
+#row-resize	{
+    width: var(--box-size);
+    height: var(--box-size);
+    background-color: var(--background-color);
+    border: 2px solid whitesmoke;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    cursor: row-resize;
+    border-radius: var(--border-radius);
+    margin: var(--margin);
+}
+
+#n-resize{
+    width: var(--box-size);
+    height: var(--box-size);
+    background-color: var(--background-color);
+    border: 2px solid whitesmoke;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    cursor: n-resize;
+    border-radius: var(--border-radius);
+    margin: var(--margin);
+}
+
+#e-resize{
+    width: var(--box-size);
+    height: var(--box-size);
+    background-color: var(--background-color);
+    border: 2px solid whitesmoke;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    cursor: e-resize;
+    border-radius: var(--border-radius);
+    margin: var(--margin);
+}
+
+#s-resize {
+    width: var(--box-size);
+    height: var(--box-size);
+    background-color: var(--background-color);
+    border: 2px solid whitesmoke;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    cursor: s-resize;
+    border-radius: var(--border-radius);
+    margin: var(--margin);
+}
+
+#w-resize {
+    width: var(--box-size);
+    height: var(--box-size);
+    background-color: var(--background-color);
+    border: 2px solid whitesmoke;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    cursor: w-resize;
+    border-radius: var(--border-radius);
+    margin: var(--margin);
+}
+
+#ne-resize {
+    width: var(--box-size);
+    height: var(--box-size);
+    background-color: var(--background-color);
+    border: 2px solid whitesmoke;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    cursor: ne-resize;
+    border-radius: var(--border-radius);
+    margin: var(--margin);
+}
+
+#nw-resize {
+    width: var(--box-size);
+    height: var(--box-size);
+    background-color: var(--background-color);
+    border: 2px solid whitesmoke;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    cursor: nw-resize;
+    border-radius: var(--border-radius);
+    margin: var(--margin);
+}
+
+#se-resize {
+    width: var(--box-size);
+    height: var(--box-size);
+    background-color: var(--background-color);
+    border: 2px solid whitesmoke;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    cursor: se-resize;
+    border-radius: var(--border-radius);
+    margin: var(--margin);
+}
+
+#sw-resize {
+    width: var(--box-size);
+    height: var(--box-size);
+    background-color: var(--background-color);
+    border: 2px solid whitesmoke;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    cursor: sw-resize;
+    border-radius: var(--border-radius);
+    margin: var(--margin);
+}
+
+#ew-resize {
+    width: var(--box-size);
+    height: var(--box-size);
+    background-color: var(--background-color);
+    border: 2px solid whitesmoke;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    cursor: ew-resize;
+    border-radius: var(--border-radius);
+    margin: var(--margin);
+}
+
+#ns-resize {
+    width: var(--box-size);
+    height: var(--box-size);
+    background-color: var(--background-color);
+    border: 2px solid whitesmoke;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    cursor: ns-resize;
+    border-radius: var(--border-radius);
+    margin: var(--margin);
+}
+
+#nesw-resize {
+    width: var(--box-size);
+    height: var(--box-size);
+    background-color: var(--background-color);
+    border: 2px solid whitesmoke;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    cursor: nesw-resize;
+    border-radius: var(--border-radius);
+    margin: var(--margin); 
+}
+
+#nwse-resize {
+    width: var(--box-size);
+    height: var(--box-size);
+    background-color: var(--background-color);
+    border: 2px solid whitesmoke;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    cursor: nwse-resize;
+    border-radius: var(--border-radius);
+    margin: var(--margin); 
+}
+
+#zoom-in {
+    width: var(--box-size);
+    height: var(--box-size);
+    background-color: var(--background-color);
+    border: 2px solid whitesmoke;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    cursor: zoom-in;
+    border-radius: var(--border-radius);
+    margin: var(--margin); 
+}
+
+#zoom-out {
+    width: var(--box-size);
+    height: var(--box-size);
+    background-color: var(--background-color);
+    border: 2px solid whitesmoke;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    cursor: zoom-out;
+    border-radius: var(--border-radius);
+    margin: var(--margin); 
+}
+
+#grab {
+    width: var(--box-size);
+    height: var(--box-size);
+    background-color: var(--background-color);
+    border: 2px solid whitesmoke;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    cursor: grab;
+    border-radius: var(--border-radius);
+    margin: var(--margin);
+}
+
+#grabbing {
+    width: var(--box-size);
+    height: var(--box-size);
+    background-color: var(--background-color);
+    border: 2px solid whitesmoke;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    cursor: grabbing;
+    border-radius: var(--border-radius);
+    margin: var(--margin);
+}
